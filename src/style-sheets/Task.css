@@ -1,0 +1,40 @@
+.task-container {
+  width: 500px;
+  min-height: 65px;
+  background-color: black;
+  margin: 5px 0;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+/*TEXTO*/
+
+.task-text {
+  width: 100%;
+  height: 100%;
+  color: bisque;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
+/*ICONO*/
+
+.task-icon {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+/* TAREA COMPLETADA */
+
+.task-container.completed {
+  background-color: rgb(84, 106, 148);
+  text-decoration: line-through;
+}
